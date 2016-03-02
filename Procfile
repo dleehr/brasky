@@ -1,2 +1,2 @@
-web: python brasky.py
+web: python brasky.py $PORT
 
