@@ -14,4 +14,5 @@ def brasky():
     return quotes[index]
 
 if __name__ == "__main__":
+    print 'port', sys.argv[1]
     app.run(port=int(sys.argv[1]))
